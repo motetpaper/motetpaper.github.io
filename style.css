@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: monospace;
+  font-family: "ptserif";
 }
 
 h1 {
@@ -12,4 +12,10 @@ h1 {
   h1 {
     font-size: 15pt;
   }
+}
+
+@font-face {
+  font-family: "ptserif";
+  src:
+    url("/fonts/PTSerif-Regular.ttf") format("truetype"),
 }
