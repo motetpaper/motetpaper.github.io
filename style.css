@@ -1,8 +1,15 @@
 body {
   background-color: black;
   color: white;
+  font-family: monospace;
 }
 
 h1 {
-  font-size: 35pt;
+  font-size: 30pt;
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 15pt;
+  }
 }
